@@ -64,6 +64,8 @@ export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 #   export EDITOR='mvim'
 # fi
 
+export EDITOR='atom --wait'
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -78,3 +80,4 @@ export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+eval "$(chef shell-init zsh)"
