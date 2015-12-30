@@ -65,6 +65,7 @@ export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # fi
 
 export EDITOR='atom --wait'
+export HOMEBREW_GITHUB_API_TOKEN=421a010de45f4db04ac18402225325369c37901b
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -80,4 +81,5 @@ export EDITOR='atom --wait'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval "$(chef shell-init zsh)"
+
+# eval "$(chef shell-init zsh)"
