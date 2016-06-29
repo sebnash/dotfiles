@@ -6,6 +6,6 @@
 	name = Sebastian Nash
 	email = seb@ustwo.com
 [core]
-	editor = atom --wait
+	editor = vim -c 'startinsert'
 [credential]
 	helper = osxkeychain
