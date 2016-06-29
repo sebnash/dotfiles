@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -65,7 +65,7 @@ export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # fi
 
 export EDITOR='atom --wait'
-export HOMEBREW_GITHUB_API_TOKEN=421a010de45f4db04ac18402225325369c37901b
+# export HOMEBREW_GITHUB_API_TOKEN=421a010de45f4db04ac18402225325369c37901b
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -83,3 +83,5 @@ export HOMEBREW_GITHUB_API_TOKEN=421a010de45f4db04ac18402225325369c37901b
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # eval "$(chef shell-init zsh)"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
